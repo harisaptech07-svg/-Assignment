@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student (studentName, classroom, course, gender, city, country, semester)>
+<!ELEMENT studentName (#PCDATA)>
+<!ELEMENT classroom (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT semester (#PCDATA)>
+]>
+
+
+
+<students>
+    <student>
+        <studentName>Khizer</studentName>
+        <classroom>08B</classroom>
+        <course>Programming</course>
+        <gender>Male</gender>
+        <city>Karachi</city>
+        <country>Pakistan</country>
+        <semester>2</semester>
+    </student>
+
+    <student>
+        <studentName>Hadi</studentName>
+        <classroom>08B</classroom>
+        <course>Programming</course>
+        <gender>Male</gender>
+        <city>Karachi</city>
+        <country>Pakistan</country>
+        <semester>2</semester>
+    </student>
+</students>

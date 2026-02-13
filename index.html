@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students Fetch</title>
+</head>
+<body>
+
+<script>
+fetch("students.json")
+.then(function(response) {
+    return response.json();
+})
+.then(function(data) {
+
+    console.log("Students Data:");
+
+    
+    data.students.forEach(function(student) {
+
+        console.log("Name: " + student.studentName);
+        console.log("Classroom: " + student.classroom);
+        console.log("Course: " + student.course);
+        console.log("Gender: " + student.gender);
+        console.log("City: " + student.city);
+        console.log("Country: " + student.country);
+        console.log("Semester: " + student.semester);
+        console.log("------------------");
+
+    });
+
+})
+
+.catch(function(error) {
+    console.log("Error: " + error);
+});
+
+</script>
+
+</body>
+</html>

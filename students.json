@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "studentName": "Khizer",
+      "classroom": "08B",
+      "course": "Programming",
+      "gender": "Male",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "semester": 2
+    },
+    {
+      "studentName": "Hadi",
+      "classroom": "08B",
+      "course": "Programming",
+      "gender": "Male",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "semester": 2
+    }
+  ]
+}
